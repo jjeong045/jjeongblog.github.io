@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Communication</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <!-- 합쳐지고 최소화된 최신 CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+    <!-- 부가적인 테마 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+    <!-- 합쳐지고 최소화된 최신 자바스크립트 -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container">
+    <h1><strong>Welcome to GoldenTime!</strong></h1>
+    <h2>Input your PET's imformation</h2><small>여기서 작성한 정보는 저장되었다가 새벽 응급상황에 닥터콜을 하면 Dr의 핸드폰에 정보가 바로 보여서 빠른 진단을 내리는데 도움을 주게 됩니다. 또한 커뮤니티에서의 정보를 분류해줍니다.</small><br>
+
+        <form class="form-horizontal">
+            아이디 : <input type="text" name="id">
+            비밀번호 : <input type="password" name="pw"><br>
+
+            <div class="form-group">
+            <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+            <div class="col-sm-10">
+                <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+            </div>
+            </div>
+            <div class="form-group">
+            <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+            <div class="col-sm-10">
+                <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+            </div>
+            </div>
+            <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+                <div class="checkbox">
+                <label>
+                    <input type="checkbox"> Remember me
+                </label>
+                </div>
+            </div>
+            </div>
+            <!-- 반려동물 정보 입력 -->
+            <div class="btn-group">
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                PET <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" role="menu">
+                <li>DOG</li>
+                <li>CAT</li>
+                <li class="divider"></li>
+                <li>기타</li>
+                </ul>
+            </div>
+                <div class="btn-group btn-group-justified" role="group" aria-label="...">
+                    <button type="button" class="btn btn-default">M</button>
+                    <button type="button" class="btn btn-default">W</button>
+                </div>
+            나이 : <input type="text" name="age">
+            질병 : <input type="text" name="disease">
+            예방접종 : <input type="text" name="medicine">  <a href="#" class="btn btn-default" role="button">Sign in</a>
+
+            </div>
+        </form>
+    </div>
+</body>
+</html>]

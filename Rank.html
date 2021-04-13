@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Communication</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <!-- 합쳐지고 최소화된 최신 CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+    <!-- 부가적인 테마 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+    <!-- 합쳐지고 최소화된 최신 자바스크립트 -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <title>Rank</title>
+    <style>
+        table {
+          width: 100%;
+          border: 1px solid #444444;
+          border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #444444;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <h1><strong>Weekly Rank of Response</strong> <small>의사들의 전화응답횟수와 후기가 많은 순서대로 표에 등재 
+      초록색은 제일 많이 응답한 Dr, 파란색은 횟수가 점점 상승하는 Dr, 노란색은 10개 이하일 때, 빨간색은 5개이하일 때 표시되고 경고의 의미이다. 다음 달에도 빨간색을 받으면 Dr는 퇴출된다.
+    </small></h1>
+
+    <table class="table-hover">
+        <thead class="thead-dark">
+          <tr>
+            <th scope="col">Rank</th>
+            <th scope="col">Doctor</th>
+            <th scope="col">Calling Response</th>
+            <th scope="col">Review</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="success">
+            <th scope="row">1</th>
+            <td>Dr.Mark</td>
+            <td>58</td>
+            <td>55</td>
+          </tr>
+          <tr class="info">
+            <th scope="row">2</th>
+            <td>Dr.Jacob</td>
+            <td>45</td>
+            <td>40</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Dr.Larry</td>
+            <td>41</td>
+            <td>33</td>
+          </tr>
+          <tr>
+            <th scope="row">4</th>
+            <td>Dr.George</td>
+            <td>33</td>
+            <td>30</td>
+          </tr>
+          <tr>
+            <th scope="row">5</th>
+            <td>Dr.Marry</td>
+            <td>29</td>
+            <td>25</td>
+          </tr>
+          <tr>
+            <th scope="row">6</th>
+            <td>Dr.Jina</td>
+            <td>26</td>
+            <td>20</td>
+          </tr>
+          <tr>
+            <th scope="row">7</th>
+            <td>Dr.Kim</td>
+            <td>20</td>
+            <td>17</td>
+          </tr>
+          <tr class="warning">
+            <th scope="row">8</th>
+            <td>Dr.Harry</td>
+            <td>10</td>
+            <td>4</td>
+          </tr>
+          <tr class="danger">
+            <th scope="row">9</th>
+            <td>Dr.Nick</td>
+            <td>3</td>
+            <td>0</td>
+          </tr>
+        </tbody>
+    </table><br><br>
+
+    <a class="btn btn-primary" href="#" role="button">More Review</a>
+    <br><br>
+
+    <div class="row">
+        <div class="col-sm-6 col-md-4">
+          <div class="thumbnail">
+            <img src="free dog1.webp" class="img-responsive" alt="Responsive image" width="100%/9">
+            <div class="caption">
+              <h3>갑자기 찾아온 심장마비</h3>
+              <p>조회수가 가장 많은 후기 Best 1</p>
+              <p><a href="#" class="btn btn-primary" role="button">Go</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+                <img src="free dog.jpg" class="img-responsive" alt="Responsive image" width="100%/9">
+                <div class="caption">
+                <h3>발작</h3>
+                <p>조회수가 가장 많은 후기 Best 2</p>
+                <p><a href="#" class="btn btn-primary" role="button">Go</a>
+                </div>
+            </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <img src="cat.png" class="img-responsive" alt="Responsive image" width="100%/9">
+                    <div class="caption">
+                    <h3>밤새 구토</h3>
+                    <p>조회수가 가장 많은 후기 Best 3</p>
+                    <p><a href="#" class="btn btn-primary" role="button">Go</a>
+                    </div>
+                </div>
+                </div>          
+    </div></div>
+</body>
+</html>
